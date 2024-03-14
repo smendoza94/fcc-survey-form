@@ -4,6 +4,11 @@ body {
     font-family: monospace, serif;
 }
 
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
 label {
     display: block;
 }
