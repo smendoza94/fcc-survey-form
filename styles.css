@@ -3,7 +3,7 @@ body {
     width: 100%;
     height: 100vh;
     background: #2f2f2f; 
-    color:antiquewhite;
+    color:#faebd7;
     font-family: monospace, serif;
 }
 
@@ -38,8 +38,22 @@ input, textarea, select {
     min-height: 2em;
 }
 
+/* styles of checkboxes and radio buttons */
 .inline {
     width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
+}
+
+/* styles the submit button */
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #50483d;
+    border-color: #faebd7;
+    color: #faebd7;
+    min-width: 300px;
 }
