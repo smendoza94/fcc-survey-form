@@ -32,9 +32,10 @@ label {
     margin: 0.5rem 0;
 }
 
-input {
-    width: 95%;
-    margin: 2px 0 10px 0; 
+input, textarea, select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
 }
 
 .inline {
